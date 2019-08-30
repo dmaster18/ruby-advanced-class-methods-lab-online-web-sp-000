@@ -65,7 +65,7 @@ class Song
     @@all.clear
   end
 
-  def self.save
+  def self.save(song)
     @@all << self.new
   end
 end
