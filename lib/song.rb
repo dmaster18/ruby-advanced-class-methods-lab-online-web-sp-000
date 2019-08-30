@@ -76,6 +76,6 @@ end
 
 i_dont = Song.new_from_filename("Aerosmith - I Don't Want to Miss A Thing")
 puts i_dont.name
-puts 
+puts i_dont.artist_name
 
 
