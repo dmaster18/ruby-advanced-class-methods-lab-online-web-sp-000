@@ -71,8 +71,8 @@ class Song
 end
 
 i_dont = Song.new_from_filename("Aerosmith - I Don't Want to Miss A Thing.mp3")
-puts i_dont.artist_name
-puts i_dont.name
+puts i_dont.artist_name.class
+puts i_dont.name.class
 
 
 
