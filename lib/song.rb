@@ -52,7 +52,7 @@ class Song
      song.artist_name = artist
      song_name = artist_and_song[1].to_s.strip
      if song_name.include?(".mp3")
-      song_name = song_name.split(".mp3")
+      song_name = song_name.split(".mp3").to_s.strip
       song_name = song_name.to_s.strip
      end
      song.name = song_name
