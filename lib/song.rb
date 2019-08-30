@@ -69,7 +69,7 @@ class Song
     @@all.clear
   end
 
-  def save
+  def self.save
     self.class.all << song
   end
 end
