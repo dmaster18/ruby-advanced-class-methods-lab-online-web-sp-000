@@ -50,7 +50,7 @@ class Song
      artist_and_song = file_name.split(/[-"]/)
      artist = artist_and_song[0].to_s.strip
      song.artist_name = artist
-     song_name = artist_and_song[1].to_s.split(".mp3").to_s.strip
+     song_name = artist_and_song[1].to_s
      song.name = song_name
      song
   end
