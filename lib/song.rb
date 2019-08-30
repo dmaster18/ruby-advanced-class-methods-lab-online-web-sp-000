@@ -74,6 +74,6 @@ class Song
   end
 end
 
-middle = Song.create
+middle = Song.
 
 
