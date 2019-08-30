@@ -66,7 +66,7 @@ class Song
   end
 
   def self.save(song)
-    @@all << self.new
+    @@all << song
   end
 end
 
