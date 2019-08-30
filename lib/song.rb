@@ -74,6 +74,6 @@ class Song
   end
 end
 
-Song.new_from_filename("")
+Song.new_from_filename("Aerosmith - I Don't Want to Miss A Thing")
 
 
